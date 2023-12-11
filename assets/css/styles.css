@@ -34,12 +34,15 @@ ul {
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
-h3 {
-	padding: 50px 0px;
-}
+
 h1{
 	font-weight: 550;
 }
+
+h3 {
+	padding: 50px 0px;
+}
+
 
 h6{
 	font-family: 'Kite One', sans-serif;
@@ -50,7 +53,7 @@ a.post-link {
 }
 
 a.footer-back{
-	margin-top:50px;
+	margin-top:0px;
 }
 
 .post-link:hover,
@@ -69,9 +72,7 @@ a.footer-back{
 .footer-link.show,
 .show>.footer-link {
     color: #f48840!important;
-    border-bottom: none!important;
-    padding-bottom: 0px;
-	line-height: 0px;
+	
 }
 
 
@@ -570,15 +571,6 @@ footer p {
 	line-height: 10px;
 }
 
-footer p a {
-	color: #f48840;
-}
-
-footer p a:hover {
-	color: #f48840;
-}
-
-
 
 /* Latest Page */
 
@@ -599,17 +591,11 @@ footer p a:hover {
 	font-size:35px;
 }
 
-.latest-page h1 {
-	font-size:25px;
+.latest-page h5 {
+	font-size:18px;
 }
-
-.latest-page h1 {
-	font-size:35px;
-}
-  
 
 .latest-page {
-	margin-top: 0px;
 	text-align: center;
 }
 
